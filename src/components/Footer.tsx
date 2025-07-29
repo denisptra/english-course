@@ -1,7 +1,9 @@
 import React from 'react';
-
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-[#172F66] text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,11 +14,10 @@ const Footer = () => {
               alt="Base of Basic English Course"
               className="h-8 w-auto mr-3"
             />
-            {/* <span className="text-lg font-semibold">Base of Basic</span> */}
           </div>
           <div className="text-center md:text-right">
             <p className="text-sm">
-              © 2025 Base of Basic English Course. All rights reserved.
+              {t('footer.copyright')}
             </p>
           </div>
         </div>

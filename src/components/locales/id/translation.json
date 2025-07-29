@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "programs": "Program",
+    "schedule": "Jadwal",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Mulai Perjalanan Bahasa Inggrismu",
+    "subtitle": "Dengan Percaya Diri",
+    "description": "Ikuti kursus yang dirancang untuk pemula usia 17+ yang ingin menguasai Bahasa Inggris langkah demi langkah.",
+    "cta": "Hubungi Kami via WhatsApp",
+    "stat_age": "Syarat Usia",
+    "stat_programs": "Program Kursus",
+    "stat_beginner": "Ramah untuk Pemula"
+  },
+  "about": {
+    "title": "Tentang Base of Basic",
+    "description": "Base of Basic English Course berdedikasi membantu pelajar usia 17 tahun ke atas membangun fondasi yang kuat dalam Bahasa Inggris. Melalui modul terstruktur, latihan berbicara, dan bimbingan dari tutor berpengalaman, kami membuat belajar menjadi efektif dan menyenangkan.",
+    "feature1_title": "Pembelajaran Terstruktur",
+    "feature1_desc": "Kurikulum kami dirancang dengan cermat dengan modul progresif yang saling membangun, memastikan peningkatan yang stabil.",
+    "feature2_title": "Latihan Berbicara",
+    "feature2_desc": "Sesi percakapan rutin membantu Anda mendapatkan kepercayaan diri dan kelancaran dalam skenario komunikasi dunia nyata.",
+    "feature3_title": "Tutor Ahli",
+    "feature3_desc": "Belajar dari instruktur berpengalaman yang memahami tantangan dalam belajar Bahasa Inggris."
+  },
+  "programs": {
+    "title": "Program Kursus Kami",
+    "description": "Pilih program yang paling sesuai dengan gaya belajar dan jadwal Anda.",
+    "basic_title": "Kelas Dasar",
+    "basic_desc": "Tata bahasa, kosakata, dan percakapan sehari-hari untuk pemula.",
+    "basic_feature1": "Tata bahasa fundamental",
+    "basic_feature2": "Kosakata esensial",
+    "basic_feature3": "Percakapan dasar",
+    "basic_feature4": "Tempo ramah pemula",
+    "intensive_title": "Kelas Intensif",
+    "intensive_desc": "Sesi dengan tempo lebih cepat bagi mereka yang ingin berkembang pesat dalam waktu singkat.",
+    "intensive_feature1": "Pembelajaran dipercepat",
+    "intensive_feature2": "Latihan intensif",
+    "intensive_feature3": "Progres cepat",
+    "intensive_feature4": "Kurikulum terfokus",
+    "online_title": "Kelas Online",
+    "online_desc": "Belajar dari mana saja dengan kelas Zoom interaktif dan modul digital.",
+    "online_feature1": "Jadwal fleksibel",
+    "online_feature2": "Sesi interaktif",
+    "online_feature3": "Materi digital",
+    "online_feature4": "Belajar jarak jauh"
+  },
+  "procedure": {
+    "title": "Cara Mendaftar",
+    "description": "Ikuti langkah-langkah mudah ini untuk bergabung dengan kursus Bahasa Inggris kami.",
+    "step1_title": "Hubungi Admin",
+    "step1_desc": "Klik tombol WhatsApp untuk menghubungi admin kami",
+    "step2_title": "Isi Data Diri",
+    "step2_desc": "Isi data pribadi Anda dengan lengkap",
+    "step3_title": "Konfirmasi Pembayaran",
+    "step3_desc": "Konfirmasi jadwal dan lakukan pembayaran",
+    "step4_title": "Mulai Belajar",
+    "step4_desc": "Dapatkan penempatan Anda dan mulailah belajar"
+  },
+  "schedule": {
+    "title": "Jadwal Pendaftaran",
+    "description": "Jangan lewatkan periode pendaftaran kami yang akan datang.",
+    "registration_title": "Periode Pendaftaran",
+    "registration_date": "1 – 20 Agustus 2025",
+    "registration_note": "Disarankan mendaftar lebih awal",
+    "learning_title": "Periode Belajar",
+    "learning_date": "25 Agustus – 31 Oktober 2025",
+    "learning_note": "10 minggu pembelajaran intensif",
+    "notice_title": "Pemberitahuan Penting",
+    "notice_desc": "Kursi terbatas. Amankan tempat Anda lebih awal!"
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "description": "Temukan jawaban untuk pertanyaan umum tentang kursus Bahasa Inggris kami.",
+    "q1": "Apakah kursus ini cocok untuk pemula?",
+    "a1": "Ya, kursus kami dirancang khusus untuk mereka yang memulai dari nol.",
+    "q2": "Apakah saya akan mendapatkan sertifikat?",
+    "a2": "Ya, peserta akan menerima sertifikat penyelesaian di akhir kursus.",
+    "q3": "Apakah kelas diadakan online atau offline?",
+    "a3": "Saat ini, semua kelas diadakan secara offline di pusat belajar kami. Namun, kami juga menyediakan pilihan Kelas Online.",
+    "q4": "Apakah karyawan bisa bergabung?",
+    "a4": "Tentu, kursus ini dirancang untuk mengakomodasi jadwal yang fleksibel."
+  },
+  "contact": {
+    "title": "Siap untuk Belajar?",
+    "description": "Klik di bawah untuk mengobrol dengan admin kami via WhatsApp dan daftarkan diri Anda.",
+    "cta": "Chat di WhatsApp",
+    "phone": "Telepon",
+    "email": "Email",
+    "location": "Lokasi",
+    "location_desc": "Pusat Belajar"
+  },
+  "footer": {
+    "copyright": "© 2025 Base of Basic English Course. Hak cipta dilindungi."
+  }
+}

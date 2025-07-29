@@ -1,16 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Calendar, Clock, AlertCircle } from 'lucide-react';
 
 const ScheduleSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="schedule" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] mb-6">
-            Enrollment Schedule
+            {t('schedule.title')}
           </h2>
-          <p className="text-lg text-[#1E1E1E] max-w-3xl mx-auto">
-            Don't miss out on our upcoming enrollment period
+          <p className="text-lg text-[#494949] max-w-3xl mx-auto">
+            {t('schedule.description')}
           </p>
         </div>
 
@@ -21,13 +24,13 @@ const ScheduleSection = () => {
                 <Calendar size={32} />
               </div>
               <h3 className="text-2xl font-bold text-[#1E1E1E] mb-4">
-                Registration Period
+                {t('schedule.registration_title')}
               </h3>
               <p className="text-3xl font-bold text-[#20438F] mb-2">
-                1 – 20 August 2025
+                {t('schedule.registration_date')}
               </p>
-              <p className="text-[#1E1E1E]">
-                Early registration recommended
+              <p className="text-[#494949]">
+                {t('schedule.registration_note')}
               </p>
             </div>
 
@@ -36,13 +39,13 @@ const ScheduleSection = () => {
                 <Clock size={32} />
               </div>
               <h3 className="text-2xl font-bold text-[#1E1E1E] mb-4">
-                Learning Period
+                {t('schedule.learning_title')}
               </h3>
               <p className="text-3xl font-bold text-[#20438F] mb-2">
-                25 August – 31 October 2025
+                {t('schedule.learning_date')}
               </p>
               <p className="text-[#1E1E1E]">
-                10 weeks of intensive learning
+                {t('schedule.learning_note')}
               </p>
             </div>
           </div>
@@ -51,11 +54,11 @@ const ScheduleSection = () => {
             <div className="flex items-center justify-center mb-4">
               <AlertCircle className="text-[#1E1E1E] mr-2" size={24} />
               <span className="text-xl font-bold text-[#1E1E1E]">
-                Important Notice
+                {t('schedule.notice_title')}
               </span>
             </div>
             <p className="text-lg text-[#1E1E1E] font-semibold">
-              Limited seats available. Secure your spot early!
+              {t('schedule.notice_desc')}
             </p>
           </div>
         </div>

@@ -1,25 +1,43 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Clock, Zap, Monitor } from 'lucide-react';
 
 const ProgramsSection = () => {
+  const { t } = useTranslation();
+
   const programs = [
     {
-      title: "Basic Class",
-      description: "Grammar, vocabulary, and everyday conversation for absolute beginners.",
+      title: t('programs.basic_title'),
+      description: t('programs.basic_desc'),
       icon: Clock,
-      features: ["Fundamental grammar", "Essential vocabulary", "Basic conversation", "Beginner-friendly pace"]
+      features: [
+        t('programs.basic_feature1'),
+        t('programs.basic_feature2'),
+        t('programs.basic_feature3'),
+        t('programs.basic_feature4')
+      ]
     },
     {
-      title: "Intensive Class",
-      description: "Faster-paced sessions for those who want to improve quickly in a shorter time.",
+      title: t('programs.intensive_title'),
+      description: t('programs.intensive_desc'),
       icon: Zap,
-      features: ["Accelerated learning", "Intensive practice", "Quick progress", "Focused curriculum"]
+      features: [
+        t('programs.intensive_feature1'),
+        t('programs.intensive_feature2'),
+        t('programs.intensive_feature3'),
+        t('programs.intensive_feature4')
+      ]
     },
     {
-      title: "Online Class",
-      description: "Learn from anywhere with interactive Zoom classes and digital modules.",
+      title: t('programs.online_title'),
+      description: t('programs.online_desc'),
       icon: Monitor,
-      features: ["Flexible schedule", "Interactive sessions", "Digital materials", "Remote learning"]
+      features: [
+        t('programs.online_feature1'),
+        t('programs.online_feature2'),
+        t('programs.online_feature3'),
+        t('programs.online_feature4')
+      ]
     }
   ];
 
@@ -28,10 +46,10 @@ const ProgramsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] mb-6">
-            Our Course Programs
+            {t('programs.title')}
           </h2>
-          <p className="text-lg text-[#1E1E1E] max-w-3xl mx-auto">
-            Choose the program that best fits your learning style and schedule
+          <p className="text-lg text-[#494949] max-w-3xl mx-auto">
+            {t('programs.description')}
           </p>
         </div>
 
@@ -47,11 +65,10 @@ const ProgramsSection = () => {
                   <h3 className="text-2xl font-bold text-[#1E1E1E] mb-3">
                     {program.title}
                   </h3>
-                  <p className="text-[#1E1E1E] leading-relaxed">
+                  <p className="text-[#494949] leading-relaxed">
                     {program.description}
                   </p>
                 </div>
-
                 <ul className="space-y-3">
                   {program.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-[#1E1E1E]">

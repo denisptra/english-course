@@ -1,16 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BookOpen, Users, Award } from 'lucide-react';
 
 const AboutSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] mb-6">
-            About Base of Basic
+            {t('about.title')}
           </h2>
-          <p className="text-lg text-[#1E1E1E] max-w-4xl mx-auto leading-relaxed">
-            Base of Basic English Course is dedicated to helping learners aged 17 and above build a strong foundation in English. Through structured modules, speaking practice, and guidance from experienced tutors, we make learning effective and enjoyable.
+          <p className="text-lg text-[#494949] max-w-4xl mx-auto leading-relaxed">
+            {t('about.description')}
           </p>
         </div>
 
@@ -20,10 +23,10 @@ const AboutSection = () => {
               <BookOpen size={32} />
             </div>
             <h3 className="text-xl font-semibold text-[#1E1E1E] mb-4">
-              Structured Learning
+              {t('about.feature1_title')}
             </h3>
-            <p className="text-[#1E1E1E]">
-              Our curriculum is carefully designed with progressive modules that build upon each other, ensuring steady improvement.
+            <p className="text-[#494949]">
+              {t('about.feature1_desc')}
             </p>
           </div>
 
@@ -32,10 +35,10 @@ const AboutSection = () => {
               <Users size={32} />
             </div>
             <h3 className="text-xl font-semibold text-[#1E1E1E] mb-4">
-              Speaking Practice
+              {t('about.feature2_title')}
             </h3>
             <p className="text-[#1E1E1E]">
-              Regular conversation sessions help you gain confidence and fluency in real-world communication scenarios.
+              {t('about.feature2_desc')}
             </p>
           </div>
 
@@ -44,10 +47,10 @@ const AboutSection = () => {
               <Award size={32} />
             </div>
             <h3 className="text-xl font-semibold text-[#1E1E1E] mb-4">
-              Expert Tutors
+              {t('about.feature3_title')}
             </h3>
             <p className="text-[#1E1E1E]">
-              Learn from experienced instructors who understand the challenges of English language learning.
+              {t('about.feature3_desc')}
             </p>
           </div>
         </div>

@@ -1,27 +1,30 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { MessageCircle, FileText, CreditCard, GraduationCap } from 'lucide-react';
 
 const ProcedureSection = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
       icon: MessageCircle,
-      title: "Contact Admin",
-      description: "Click the WhatsApp button to contact our admin",
+      title: t('procedure.step1_title'),
+      description: t('procedure.step1_desc'),
     },
     {
       icon: FileText,
-      title: "Fill Details",
-      description: "Fill out your personal details",
+      title: t('procedure.step2_title'),
+      description: t('procedure.step2_desc'),
     },
     {
       icon: CreditCard,
-      title: "Confirm Payment",
-      description: "Confirm schedule and payment",
+      title: t('procedure.step3_title'),
+      description: t('procedure.step3_desc'),
     },
     {
       icon: GraduationCap,
-      title: "Start Learning",
-      description: "Receive your placement and start learning",
+      title: t('procedure.step4_title'),
+      description: t('procedure.step4_desc'),
     }
   ];
 
@@ -30,10 +33,10 @@ const ProcedureSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] mb-6">
-            How to Register
+            {t('procedure.title')}
           </h2>
-          <p className="text-lg text-[#1E1E1E] max-w-3xl mx-auto">
-            Follow these simple steps to join our English course
+          <p className="text-lg text-[#494949] max-w-3xl mx-auto">
+            {t('procedure.description')}
           </p>
         </div>
 
@@ -50,7 +53,7 @@ const ProcedureSection = () => {
                 <h3 className="text-xl font-bold text-[#1E1E1E] mb-3">
                   {step.title}
                 </h3>
-                <p className="text-[#1E1E1E] leading-relaxed">
+                <p className="text-[#494949] leading-relaxed">
                   {step.description}
                 </p>
               </div>

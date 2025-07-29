@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "schedule": "Schedule",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Start Your English Journey",
+    "subtitle": "With Confidence",
+    "description": "Join a course designed for beginners 17+ who want to master English step by step.",
+    "cta": "Contact Us via WhatsApp",
+    "stat_age": "Age Requirement",
+    "stat_programs": "Course Programs",
+    "stat_beginner": "Beginner Friendly"
+  },
+  "about": {
+    "title": "About Base of Basic",
+    "description": "Base of Basic English Course is dedicated to helping learners aged 17 and above build a strong foundation in English. Through structured modules, speaking practice, and guidance from experienced tutors, we make learning effective and enjoyable.",
+    "feature1_title": "Structured Learning",
+    "feature1_desc": "Our curriculum is carefully designed with progressive modules that build upon each other, ensuring steady improvement.",
+    "feature2_title": "Speaking Practice",
+    "feature2_desc": "Regular conversation sessions help you gain confidence and fluency in real-world communication scenarios.",
+    "feature3_title": "Expert Tutors",
+    "feature3_desc": "Learn from experienced instructors who understand the challenges of English language learning."
+  },
+  "programs": {
+    "title": "Our Course Programs",
+    "description": "Choose the program that best fits your learning style and schedule.",
+    "basic_title": "Basic Class",
+    "basic_desc": "Grammar, vocabulary, and everyday conversation for absolute beginners.",
+    "basic_feature1": "Fundamental grammar",
+    "basic_feature2": "Essential vocabulary",
+    "basic_feature3": "Basic conversation",
+    "basic_feature4": "Beginner-friendly pace",
+    "intensive_title": "Intensive Class",
+    "intensive_desc": "Faster-paced sessions for those who want to improve quickly in a shorter time.",
+    "intensive_feature1": "Accelerated learning",
+    "intensive_feature2": "Intensive practice",
+    "intensive_feature3": "Quick progress",
+    "intensive_feature4": "Focused curriculum",
+    "online_title": "Online Class",
+    "online_desc": "Learn from anywhere with interactive Zoom classes and digital modules.",
+    "online_feature1": "Flexible schedule",
+    "online_feature2": "Interactive sessions",
+    "online_feature3": "Digital materials",
+    "online_feature4": "Remote learning"
+  },
+  "procedure": {
+    "title": "How to Register",
+    "description": "Follow these simple steps to join our English course.",
+    "step1_title": "Contact Admin",
+    "step1_desc": "Click the WhatsApp button to contact our admin",
+    "step2_title": "Fill Details",
+    "step2_desc": "Fill out your personal details",
+    "step3_title": "Confirm Payment",
+    "step3_desc": "Confirm schedule and payment",
+    "step4_title": "Start Learning",
+    "step4_desc": "Receive your placement and start learning"
+  },
+  "schedule": {
+    "title": "Enrollment Schedule",
+    "description": "Don't miss out on our upcoming enrollment period.",
+    "registration_title": "Registration Period",
+    "registration_date": "1 – 20 August 2025",
+    "registration_note": "Early registration recommended",
+    "learning_title": "Learning Period",
+    "learning_date": "25 August – 31 October 2025",
+    "learning_note": "10 weeks of intensive learning",
+    "notice_title": "Important Notice",
+    "notice_desc": "Limited seats available. Secure your spot early!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our English course.",
+    "q1": "Is this course suitable for complete beginners?",
+    "a1": "Yes, our course is designed for those starting from zero.",
+    "q2": "Do I get a certificate?",
+    "a2": "Yes, participants will receive a certificate of completion.",
+    "q3": "Are classes held online or offline?",
+    "a3": "Currently, all classes are held offline at our learning center. However, we also have an Online Class option available.",
+    "q4": "Can working adults join?",
+    "a4": "Yes, the course is designed to accommodate flexible schedules."
+  },
+  "contact": {
+    "title": "Ready to Learn?",
+    "description": "Click below to chat with our admin via WhatsApp and register your seat.",
+    "cta": "Chat on WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "location_desc": "Learning Center"
+  },
+  "footer": {
+    "copyright": "© 2025 Base of Basic English Course. All rights reserved."
+  }
+}

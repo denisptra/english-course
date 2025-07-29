@@ -1,26 +1,16 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const FAQSection = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
-    {
-      question: "Is this course suitable for complete beginners?",
-      answer: "Yes, our course is designed for those starting from zero."
-    },
-    {
-      question: "Do I get a certificate?",
-      answer: "Yes, participants will receive a certificate of completion."
-    },
-    {
-      question: "Are classes held online or offline?",
-      answer: "Currently, all classes are held offline at our learning center."
-    },
-    {
-      question: "Can working adults join?",
-      answer: "Yes, the course is designed to accommodate flexible schedules."
-    }
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') }
   ];
 
   const toggleFAQ = (index: number) => {
@@ -32,10 +22,10 @@ const FAQSection = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] mb-6">
-            Frequently Asked Questions
+            {t('faq.title')}
           </h2>
           <p className="text-lg text-[#1E1E1E]">
-            Find answers to common questions about our English course
+            {t('faq.description')}
           </p>
         </div>
 
